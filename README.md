@@ -1,6 +1,28 @@
 # DataScience_HousePricePrediction
 
-#Notebook
 
 The goal is to predict the median sale price for each city by property type for four months from Oct 2019 to Jan 2020. 
 For each record in the test set, predicted the median sale price.
+
+# Overview
+
+ Workflow
+ Preprocessing and transformation
+ Statistic and visualization of the data
+ Feature Selection and Model Selection 
+ Best Model and Best Features
+ Result
+ Conclusion
+ Prediction Results
+ 
+ 
+ # Preprocessing and transformation
+ 
+ Checked for missing values
+Removed comma in the target variable "Median Sale Price (in 000's of dollars)“
+Converting Date variable which is object to Pandas compatible datetime datatype
+Convert categorical variable(city and property type) into dummy/indicator variables.
+
+# Conclusion
+
+According to the test dataset, 90% of the predictions for home prices can be explained by the model. The model predicts the Median Home Prices in with an error of +/- 1.1% of the actual prices.

@@ -1,8 +1,17 @@
-# DataScience_HousePricePrediction
-
+# Predicting house prices using Linear Regression
 
 The goal is to predict the median sale price for each city by property type for four months from Oct 2019 to Jan 2020. 
 For each record in the test set, predicted the median sale price.
+
+# Software and Libraries
+
+This project uses the following software and Python libraries:
+
+ Python
+ NumPy
+ pandas
+ matplotlib
+ scikit-learn
 
 # Overview
 
@@ -19,9 +28,9 @@ For each record in the test set, predicted the median sale price.
  # Preprocessing and transformation
  
  Checked for missing values
-Removed comma in the target variable "Median Sale Price (in 000's of dollars)“
-Converting Date variable which is object to Pandas compatible datetime datatype
-Convert categorical variable(city and property type) into dummy/indicator variables.
+ Removed comma in the target variable "Median Sale Price (in 000's of dollars)“
+ Converting Date variable which is object to Pandas compatible datetime datatype
+ Convert categorical variable(city and property type) into dummy/indicator variables.
 
 # Conclusion
 

@@ -34,4 +34,6 @@ This project uses the following software and Python libraries:
 
 # Conclusion
 
+Increased accuracy by adding polynomial regression of degree 3 and regularising the model with Ridge regularisation.  
+By using the model,  predicted the median sale price for each city by property type for four months from Oct 2019 to Jan 2020. 
 According to the test dataset, 90% of the predictions for home prices can be explained by the model. The model predicts the Median Home Prices in with an error of +/- 1.1% of the actual prices.
